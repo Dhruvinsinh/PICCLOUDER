@@ -1,0 +1,30 @@
+<html>
+<head>
+<script>
+</script>
+</head>
+<body id="b1" style="background-image:url(https://wallpaperaccess.com/full/284466.jpg);">
+
+<div style="background:blue;padding:30px;margin:0px;"><table style="float:right;"><tr><td>
+<form action="login.php" method="POST" >
+<input style="border-radius:200px;padding:6px;"type="text" name="name"/>
+<input style="border-radius:200px;padding:6px;" type="password" name="pass"/>
+<input style="border-radius:200px;padding:6px;"type="submit" value="Login"/>
+</form>
+</tr></td>
+</table><br>
+</div>
+<p align="right">
+<font size="100" style="padding-right:18px;">SignUp</font></p>
+<table align="right" style="padding-right:18px;"><tr><td>
+<form action="signup.php" method="POST">
+<input style="border-radius:200px;padding:6px;"style="margin:5px;" type="text" name="name"/><br>
+<input style="border-radius:200px;padding:6px;"style="margin:5px;" type="password" name="pass"/><br>
+<input style="border-radius:200px;padding:6px;"style="margin:5px;"type="password" name="repass"/><br>
+<input style="border-radius:200px;padding:6px;"style="margin:5px;"type="text" name="no"/><br>
+<input style="border-radius:200px;padding:6px;" style="margin:5px;"type="submit"/><br>
+</td></tr>
+</table>
+</p>
+</body>
+</html>
