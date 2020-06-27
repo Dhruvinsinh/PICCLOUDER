@@ -7,6 +7,8 @@ if(!isset($_SESSION['id']))
 else{
 ?>
 <a href="upload.php"><button>Upload</button></a><br><hr>
+
+<a href="logout.php"><button>logout</button></a><br><hr>
 <?php
 $id=$_SESSION['id'];
 $conn=mysqli_connect("localhost","root","");
